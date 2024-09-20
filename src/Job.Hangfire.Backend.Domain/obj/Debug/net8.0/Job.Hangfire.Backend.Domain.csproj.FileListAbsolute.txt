@@ -1,0 +1,12 @@
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\bin\Debug\net8.0\Job.Hangfire.Backend.Domain.deps.json
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\bin\Debug\net8.0\Job.Hangfire.Backend.Domain.dll
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\bin\Debug\net8.0\Job.Hangfire.Backend.Domain.pdb
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.AssemblyInfoInputs.cache
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.AssemblyInfo.cs
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.sourcelink.json
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.dll
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\refint\Job.Hangfire.Backend.Domain.dll
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\Job.Hangfire.Backend.Domain.pdb
+C:\Users\kaique.piton\Job.Hangfire.Backend\src\Job.Hangfire.Backend.Domain\obj\Debug\net8.0\ref\Job.Hangfire.Backend.Domain.dll

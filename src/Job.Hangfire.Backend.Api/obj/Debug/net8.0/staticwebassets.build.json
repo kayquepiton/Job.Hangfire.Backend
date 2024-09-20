@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "q2sQbQde7ahdqr+Lkcz91aeGLcz98nZhlPOZD70642o=",
+  "Source": "Job.Hangfire.Backend.Api",
+  "BasePath": "_content/Job.Hangfire.Backend.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

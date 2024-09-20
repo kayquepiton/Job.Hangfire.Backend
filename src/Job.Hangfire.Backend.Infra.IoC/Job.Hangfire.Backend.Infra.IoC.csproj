@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Refit" Version="7.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Job.Hangfire.Backend.Domain\Job.Hangfire.Backend.Domain.csproj" />
+    <ProjectReference Include="..\Job.Hangfire.Backend.Infra.Data\Job.Hangfire.Backend.Infra.Data.csproj" />
+    <ProjectReference Include="..\Job.Hangfire.Backend.Application\Job.Hangfire.Backend.Application.csproj" />
+  </ItemGroup>
+
+</Project>

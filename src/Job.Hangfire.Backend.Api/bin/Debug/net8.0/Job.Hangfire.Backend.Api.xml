@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Job.Hangfire.Backend.Api</name>
+    </assembly>
+    <members>
+        <member name="M:Job.Hangfire.Backend.API.Controllers.EmailController.CreateEmailAsync(Job.Hangfire.Backend.Application.Models.Request.EmailRequest)">
+            <summary> Cria um novo e-mail </summary>
+            <remarks>
+            Exemplo de requisição:
+            
+                POST /api/email
+                {
+                   "recipient": "john.doe@example.com",
+                   "subject": "Bem-vindo!",
+                   "body": "Obrigado por se cadastrar no nosso serviço."
+                }
+                
+            </remarks>
+            <param name="request">Dados do e-mail</param>
+            <returns>Retorna o e-mail criado</returns>
+            <response code="200">OK - E-mail criado com sucesso</response>
+            <response code="400">Bad Request - Requisição do E-mail é Inválida</response>
+        </member>
+        <member name="M:Job.Hangfire.Backend.API.Controllers.EmailController.GetEmailByIdAsync(System.Guid)">
+            <summary> Obtém um e-mail pelo ID </summary>
+            <remarks>
+            Exemplo de requisição:
+            
+                GET /api/email/{id}
+                
+            </remarks>
+            <param name="id">ID do e-mail</param>
+            <returns>Retorna o e-mail correspondente</returns>
+            <response code="200">OK - E-mail encontrado</response>
+            <response code="400">Bad Request - Requisição do E-mail é Inválida</response>
+        </member>
+        <member name="M:Job.Hangfire.Backend.API.Controllers.EmailController.GetAllEmailsAsync">
+            <summary> Obtém todos os e-mails </summary>
+            <remarks>
+            Exemplo de requisição:
+            
+                GET /api/email
+                
+            </remarks>
+            <returns>Retorna uma lista de e-mails</returns>
+            <response code="200">OK - E-mails encontrados</response>
+            <response code="400">Bad Request - Requisição do E-mail é Inválida</response>
+        </member>
+        <member name="M:Job.Hangfire.Backend.API.Controllers.EmailController.UpdateEmailAsync(System.Guid,Job.Hangfire.Backend.Application.Models.Request.EmailRequest)">
+            <summary> Atualiza um e-mail pelo ID </summary>
+            <remarks>
+            Exemplo de requisição:
+            
+                PUT /api/email/{id}
+                {
+                   "recipient": "john.doe@example.com",
+                   "subject": "Assunto Atualizado",
+                   "body": "Conteúdo atualizado do corpo do e-mail."
+                }
+                
+            </remarks>
+            <param name="id">ID do e-mail</param>
+            <param name="request">Dados do e-mail</param>
+            <returns>Retorna o e-mail atualizado</returns>
+            <response code="200">OK - E-mail atualizado com sucesso</response>
+            <response code="400">Bad Request - Requisição do E-mail é Inválida</response>
+        </member>
+        <member name="M:Job.Hangfire.Backend.API.Controllers.EmailController.DeleteEmailAsync(System.Guid)">
+            <summary> Deleta um e-mail pelo ID </summary>
+            <remarks>
+            Exemplo de requisição:
+            
+                DELETE /api/email/{id}
+                
+            </remarks>
+            <param name="id">ID do e-mail</param>
+            <response code="204">No Content - E-mail deletado com sucesso</response>
+            <response code="400">Bad Request - Requisição do E-mail é Inválida</response>
+        </member>
+    </members>
+</doc>
